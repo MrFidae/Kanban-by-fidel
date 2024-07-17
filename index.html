@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban By Fidel</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Kanban By Fidel</h1>
+        <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+    <div class="container">
+        <button class="create-task-btn" id="createTaskBtn">Créer Tâche</button>
+        <div class="board">
+            <div class="column" id="inProgress">
+                <h2>En cours</h2>
+            </div>
+            <div class="column" id="inDevelopment">
+                <h2>En développement</</h2>
+            </div>
+            <div class="column" id="completed">
+                <h2>Terminé</h2>
+            </div>
+            <div class="column" id="inProduction">
+                <h2>En Production</h2>
+            </div>
+        </div>
+    </div>
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Créer une nouvelle tâche</h2>
+            <form id="taskForm">
+                <input type="hidden" id="taskId">
+                <label for="taskTitle">Titre de la tâche:</label>
+                <input type="text" id="taskTitle" required>
+                <label for="taskComment">Commentaire:</label>
+                <textarea id="taskComment"></textarea>
+                <label for="taskDate">Date:</label>
+                <input type="date" id="taskDate" required>
+                <label for="taskPriority">Priorité:</label>
+                <select id="taskPriority">
+                    <option value="low">Basse</option>
+                    <option value="medium">Moyenne</option>
+                    <option value="high">Haute</option>
+                </select>
+                <label for="taskColor">Couleur:</label>
+                <input type="color" id="taskColor">
+                <button type="submit" id="submitTaskBtn">Créer la tâche</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

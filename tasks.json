@@ -1,0 +1,125 @@
+{
+    "tasks": {
+        "task-1628732843837": {
+            "title": "Créer l'interface utilisateur",
+            "comment": "Développer la première version de l'interface utilisateur.",
+            "date": "2024-07-20",
+            "priority": "high",
+            "color": "#ff0000",
+            "status": "inProgress"
+        },
+        "task-1628732843838": {
+            "title": "Intégration de l'API",
+            "comment": "Connecter le frontend avec l'API backend.",
+            "date": "2024-07-21",
+            "priority": "medium",
+            "color": "#00ff00",
+            "status": "inDevelopment"
+        },
+        "task-1628732843839": {
+            "title": "Tests unitaires",
+            "comment": "Écrire des tests unitaires pour les composants principaux.",
+            "date": "2024-07-22",
+            "priority": "high",
+            "color": "#0000ff",
+            "status": "completed"
+        },
+        "task-1628732843840": {
+            "title": "Documentation du code",
+            "comment": "Documenter les fonctions et modules développés.",
+            "date": "2024-07-23",
+            "priority": "low",
+            "color": "#ff00ff",
+            "status": "inProduction"
+        },
+        "task-1628732843841": {
+            "title": "Optimisation des performances",
+            "comment": "Améliorer les performances de l'application.",
+            "date": "2024-07-24",
+            "priority": "medium",
+            "color": "#00ffff",
+            "status": "inProgress"
+        },
+        "task-1628732843842": {
+            "title": "Correction des bugs",
+            "comment": "Corriger les bugs identifiés lors des tests.",
+            "date": "2024-07-25",
+            "priority": "high",
+            "color": "#ff8800",
+            "status": "inDevelopment"
+        },
+        "task-1628732843843": {
+            "title": "Déploiement en production",
+            "comment": "Déployer la version finale en production.",
+            "date": "2024-07-26",
+            "priority": "high",
+            "color": "#8800ff",
+            "status": "inProduction"
+        },
+        "task-1628732843844": {
+            "title": "Mise en place de l'intégration continue",
+            "comment": "Configurer les outils d'intégration continue.",
+            "date": "2024-07-27",
+            "priority": "medium",
+            "color": "#ff0088",
+            "status": "completed"
+        },
+        "task-1628732843845": {
+            "title": "Revue de code",
+            "comment": "Faire une revue de code avec l'équipe.",
+            "date": "2024-07-28",
+            "priority": "low",
+            "color": "#0088ff",
+            "status": "inProgress"
+        },
+        "task-1628732843846": {
+            "title": "Formation des utilisateurs",
+            "comment": "Former les utilisateurs sur la nouvelle application.",
+            "date": "2024-07-29",
+            "priority": "medium",
+            "color": "#88ff00",
+            "status": "inDevelopment"
+        },
+        "task-1628732843847": {
+            "title": "Rétrospective du projet",
+            "comment": "Organiser une rétrospective pour discuter des points forts et des axes d'amélioration.",
+            "date": "2024-07-30",
+            "priority": "low",
+            "color": "#ff0000",
+            "status": "completed"
+        },
+        "task-1628732843848": {
+            "title": "Refactoring du code",
+            "comment": "Réorganiser et nettoyer le code pour une meilleure maintenabilité.",
+            "date": "2024-07-31",
+            "priority": "medium",
+            "color": "#00ff00",
+            "status": "inProduction"
+        },
+        "task-1628732843849": {
+            "title": "Analyse de la performance",
+            "comment": "Analyser les performances de l'application en production.",
+            "date": "2024-08-01",
+            "priority": "high",
+            "color": "#0000ff",
+            "status": "inProgress"
+        },
+        "task-1628732843850": {
+            "title": "Support post-lancement",
+            "comment": "Fournir un support technique après le lancement.",
+            "date": "2024-08-02",
+            "priority": "medium",
+            "color": "#ff00ff",
+            "status": "inDevelopment"
+        },
+        "task-1628732843851": {
+            "title": "Amélioration continue",
+            "comment": "Mettre en place des processus d'amélioration continue.",
+            "date": "2024-08-03",
+            "priority": "low",
+            "color": "#00ffff",
+            "status": "completed"
+        }
+    },
+    "isDarkMode": true
+}
